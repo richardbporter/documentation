@@ -12,7 +12,7 @@ The [<dfn id="droot">docroot</dfn>](/code#pantheon-git-repository) is the direct
 <Alert title="Warning" type="danger">
 
   
-Using Pantheon's one-click Dashboard updates feature depends on a correctly set the `web_docroot` property.
+Using Pantheon's one-click Dashboard updates feature depends on a correctly set `web_docroot` property.
 
 - Composer-managed sites, including [Integrated Composer](/guides/integrated-composer) sites, require you to set the `web_docroot` property in the `pantheon.upstream.yml` file.
 - Sites that use a [Custom Upstream](/custom-upstream) require you to set the `web_docroot` property in the `pantheon.upstream.yml` file.
